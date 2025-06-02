@@ -1,0 +1,31 @@
+farm_name,visit_date,group_id,score_1,score_2,score_3,score_4,missing_farm,missing_group,missing_date,invalid_date,missing_score_1,missing_score_2,missing_score_3,missing_score_4,total,score_1_pct,score_2_pct,score_3_pct,score_4_pct,data_issue
+Sunnyside,2025-03-26,Group A,15,0,2,11,False,False,False,False,False,True,False,False,28,53.57,0.0,7.14,39.29,True
+Sunnyside,2025-03-26,Group B,0,0,3,13,False,False,False,False,True,False,False,False,16,0.0,0.0,18.75,81.25,True
+Sunnyside,2025-03-26,Group C,7,11,0,5,False,False,False,False,False,False,False,False,23,30.43,47.83,0.0,21.74,False
+Riverside,2025-03-26,Group A,7,10,15,3,False,False,False,False,False,False,False,False,35,20.0,28.57,42.86,8.57,False
+Riverside,2025-03-26,Group B,6,11,4,7,False,False,False,False,False,False,False,False,28,21.43,39.29,14.29,25.0,False
+Riverside,2025-03-26,Group C,0,5,10,4,False,False,False,False,False,False,False,False,19,0.0,26.32,52.63,21.05,False
+Sunnyside,2025-03-27,,10,13,12,9,False,True,False,False,False,False,False,False,44,22.73,29.55,27.27,20.45,True
+Sunnyside,2025-03-27,Group B,9,11,5,9,False,False,False,False,False,False,False,False,34,26.47,32.35,14.71,26.47,False
+Sunnyside,2025-03-27,Group C,0,11,14,0,False,False,False,False,True,False,False,True,25,0.0,44.0,56.0,0.0,True
+Riverside,2025-03-27,,15,9,10,14,False,True,False,False,False,False,False,False,48,31.25,18.75,20.83,29.17,True
+Riverside,2025-03-27,Group B,3,0,1,15,False,False,False,False,False,False,False,False,19,15.79,0.0,5.26,78.95,False
+Riverside,2025-03-27,Group C,1,14,1,9,False,False,False,False,False,False,False,False,25,4.0,56.0,4.0,36.0,False
+Sunnyside,2025-03-28,Group A,3,1,14,8,False,False,False,False,False,False,False,False,26,11.54,3.85,53.85,30.77,False
+Sunnyside,2025-03-28,Group B,2,1,0,3,False,False,False,False,False,False,False,False,6,33.33,16.67,0.0,50.0,False
+Sunnyside,2025-03-28,,9,7,15,9,False,True,False,False,False,False,False,False,40,22.5,17.5,37.5,22.5,True
+Riverside,2025-03-28,Group A,12,7,15,9,False,False,False,False,False,False,False,False,43,27.91,16.28,34.88,20.93,False
+Riverside,2025-03-28,Group B,0,0,15,3,False,False,False,False,True,True,False,False,18,0.0,0.0,83.33,16.67,True
+Riverside,2025-03-28,Group C,3,10,2,11,False,False,False,False,False,False,False,False,26,11.54,38.46,7.69,42.31,False
+Sunnyside,2025-03-29,Group A,0,11,0,12,False,False,False,False,True,False,False,False,23,0.0,47.83,0.0,52.17,True
+Sunnyside,2025-03-29,Group B,4,13,4,10,False,False,False,False,False,False,False,False,31,12.9,41.94,12.9,32.26,False
+Sunnyside,2025-03-29,Group C,2,6,3,4,False,False,False,False,False,False,False,False,15,13.33,40.0,20.0,26.67,False
+Riverside,2025-03-29,Group A,2,0,0,9,False,False,False,False,False,False,True,False,11,18.18,0.0,0.0,81.82,True
+Riverside,2025-03-29,Group B,14,1,0,5,False,False,False,False,False,False,True,False,20,70.0,5.0,0.0,25.0,True
+Riverside,2025-03-29,,6,0,7,2,False,True,False,False,False,True,False,False,15,40.0,0.0,46.67,13.33,True
+Sunnyside,2025-03-30,Group A,3,11,2,7,False,False,False,False,False,False,False,False,23,13.04,47.83,8.7,30.43,False
+Sunnyside,2025-03-30,Group B,8,6,4,0,False,False,False,False,False,False,False,True,18,44.44,33.33,22.22,0.0,True
+Sunnyside,2025-03-30,,0,1,11,11,False,True,False,False,True,False,False,False,23,0.0,4.35,47.83,47.83,True
+Riverside,2025-03-30,,14,14,15,3,False,True,False,False,False,False,False,False,46,30.43,30.43,32.61,6.52,True
+Riverside,2025-03-30,Group B,15,4,1,0,False,False,False,False,False,False,False,True,20,75.0,20.0,5.0,0.0,True
+Riverside,2025-03-30,Group C,14,4,0,5,False,False,False,False,False,False,False,False,23,60.87,17.39,0.0,21.74,False
