@@ -13,12 +13,12 @@ access_code = query_params.get("code", "")
 
 # --- Define clients and access codes ---
 client_map = {
-    "QMPS-Mock-Up": {
-        "name": "Cornell University QMPS Mock Up",
-        "logo": "assets/Udder_hygiene_logo.png",
-        "data": "data/udder_hygiene.csv",
-        "code": "milk2025"
-    }
+   "qmps-mock-up": {
+    "name": "QMPS-Mock-Up",
+    "logo": "assets/Udder_hygiene_logo.png",
+    "data": "data/udder_hygiene.csv",
+    "code": "milk2025"
+}
 }
 
 # --- Access verification ---
