@@ -8,7 +8,7 @@ st.set_page_config(page_title="Udder Hygiene Dashboard", layout="wide")
 
 # Prompt user to log in
 st.markdown("### 🔐 Client Login")
-client_id = st.text_input("Client ID (e.g. qmps_mock_up)").strip().lower()
+client_id = st.text_input("Client ID").strip().lower()
 access_code = st.text_input("Access Code", type="password")
 
 if client_id not in st.secrets:
