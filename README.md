@@ -5,7 +5,6 @@ This Streamlit app delivers a secure, client-specific dashboard that automates t
 ## 🚀 Features
 
 - 🔒 **Secure Login** using client-specific access codes (`st.secrets`)
-- 📊 **Automated Data Cleaning** with flagged data tracking
 - 📈 **Visual Insights**:
   - Last visit summaries
   - Historical hygiene averages
