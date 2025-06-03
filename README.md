@@ -13,7 +13,6 @@ This Streamlit app delivers a secure, client-specific dashboard that automates t
 - 🧼 **No Manual Uploading** for clients — dashboards are preloaded
 - 🌐 **Branded Interface**: Client logos and theming
 - 📂 **Mobile-friendly UI**
-- 🔐 **Internal Analytics Logging** (not shown to clients)
 
 ---
 
@@ -30,7 +29,7 @@ A well-managed herd should see high percentages in **Scores 1 & 2**.
 
 ---
 
-## 🔐 Accessing the Dashboard
+## 🔐 Accessing the Client Dashboard
 
 Each client gets a personalized link to their dashboard.
 
@@ -45,6 +44,11 @@ Upon visiting, they enter:
 
 ---
 
+## 🔐 Accessing the Admin Dashboard
+
+🔗  [Admin Dashboard](https://udderdashboardapppy-dh6fmxmojvax2jgtkyfsoz.streamlit.app)  
+
+---
 ## ⚙️ Tech Stack
 
 - Python 3.10+
@@ -58,8 +62,8 @@ Upon visiting, they enter:
 ## 🧪 Data Handling
 
 - Missing or invalid entries are **flagged**
-- Flagged rows are **excluded** from all visualizations
-- Flags are retained so data issues can be reviewed or **imputed later**
+- Flagged rows are **excluded** from all visualizations in the client dahboard 
+- Flags are retained so data issues can be reviewed or **imputed later** in admin dashboard
 - No client-side cleaning required
 
 ---
