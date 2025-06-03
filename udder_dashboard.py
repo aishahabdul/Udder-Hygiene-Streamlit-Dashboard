@@ -15,10 +15,10 @@ access_code = query_params.get("code", "")
 client_map = {
    "qmps-mock-up": {
     "name": "QMPS-Mock-Up",
-    "logo": "assets/Udder_hygiene_logo.png",
+    "logo": "assets/udder_hygiene_logo.png",
     "data": "data/udder_hygiene_cleaned.csv",
     "code": "milk2025"
-}
+ }
 }
 
 # --- Access verification ---
