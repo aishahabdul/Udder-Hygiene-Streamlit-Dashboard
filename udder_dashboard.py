@@ -6,17 +6,38 @@ from datetime import datetime
 
 st.set_page_config(page_title="Udder Hygiene Dashboard", layout="wide")
 
-# --- Login screen ---
-st.markdown("### 🔐 Client Login")
-client_id = st.text_input("Client ID (e.g. qmps_mock_up)").strip().lower()
-access_code = st.text_input("Access Code", type="password")
+# --- Initialize session state ---
+if "authenticated" not in st.session_state:
+    st.session_state["authenticated"] = False
+if "client_id" not in st.session_state:
+    st.session_state["client_id"] = ""
+if "access_code" not in st.session_state:
+    st.session_state["access_code"] = ""
 
-client = st.secrets[client_id]
-# --- Validate credentials ---
-if client_id not in st.secrets or access_code != client.code:
-    st.error("❌ Unknown client ID or incorrect acces code.")
-    st.stop()
+# --- Login form ---
+if not st.session_state["authenticated"]:
+    st.markdown("### 🔐 Client Login")
+    st.session_state["client_id"] = st.text_input("Client ID").strip().lower()
+    st.session_state["access_code"] = st.text_input("Access Code", type="password")
+
+    if st.button("Login"):
+        client_id = st.session_state["client_id"]
+        access_code = st.session_state["access_code"]
+
+        if client_id not in st.secrets:
+            st.error("❌ Unknown client ID.")
+            st.stop()
+
+        client = st.secrets[client_id]
+
+        if access_code != client.code:
+            st.error("❌ Incorrect access code.")
+            st.stop()
+
+        st.session_state["authenticated"] = True
+        st.rerun()
 else:
+    client_id = st.session_state["client_id"]
     client = st.secrets[client_id]
 
     # if access_code != client.code:
