@@ -31,10 +31,9 @@ st.markdown(f"<h2 style='text-align: center; color: {theme_color};'>{st.session_
 # --- Data upload and rerun logic ---
 if not st.session_state["data_loaded"]:
     # uploaded_file = st.file_uploader("Upload Cleaned CSV", type="csv")
-    if uploaded_file:
-        st.session_state["df"] = pd.read_csv("udder_hygiene_cleaned.csv")
-        st.session_state["data_loaded"] = True
-        st.rerun()
+    st.session_state["df"] = pd.read_csv("udder_hygiene_cleaned.csv")
+    st.session_state["data_loaded"] = True
+    st.rerun()
 else:
     df = st.session_state["df"]
     df['visit_date'] = pd.to_datetime(df['visit_date'], errors='coerce')
