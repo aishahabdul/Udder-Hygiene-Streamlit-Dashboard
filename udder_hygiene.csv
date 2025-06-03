@@ -1,0 +1,31 @@
+Farm Name,Visit Date,Group ID,Score 1,Score 2,Score 3,Score 4
+Sunnyside,2025-03-26,Group A,15.0,,2.0,11.0
+Sunnyside,2025-03-26,Group B,,0.0,3.0,13.0
+Sunnyside,2025-03-26,Group C,7.0,11.0,0.0,5.0
+Riverside,2025-03-26,Group A,7.0,10.0,15.0,3.0
+Riverside,2025-03-26,Group B,6.0,11.0,4.0,7.0
+Riverside,2025-03-26,Group C,0.0,5.0,10.0,4.0
+Sunnyside,2025-03-27,,10.0,13.0,12.0,9.0
+Sunnyside,2025-03-27,Group B,9.0,11.0,5.0,9.0
+Sunnyside,2025-03-27,Group C,,11.0,14.0,
+Riverside,2025-03-27,,15.0,9.0,10.0,14.0
+Riverside,2025-03-27,Group B,3.0,0.0,1.0,15.0
+Riverside,2025-03-27,Group C,1.0,14.0,1.0,9.0
+Sunnyside,2025-03-28,Group A,3.0,1.0,14.0,8.0
+Sunnyside,2025-03-28,Group B,2.0,1.0,0.0,3.0
+Sunnyside,2025-03-28,,9.0,7.0,15.0,9.0
+Riverside,2025-03-28,Group A,12.0,7.0,15.0,9.0
+Riverside,2025-03-28,Group B,,,15.0,3.0
+Riverside,2025-03-28,Group C,3.0,10.0,2.0,11.0
+Sunnyside,2025-03-29,Group A,,11.0,0.0,12.0
+Sunnyside,2025-03-29,Group B,4.0,13.0,4.0,10.0
+Sunnyside,2025-03-29,Group C,2.0,6.0,3.0,4.0
+Riverside,2025-03-29,Group A,2.0,0.0,,9.0
+Riverside,2025-03-29,Group B,14.0,1.0,,5.0
+Riverside,2025-03-29,,6.0,,7.0,2.0
+Sunnyside,2025-03-30,Group A,3.0,11.0,2.0,7.0
+Sunnyside,2025-03-30,Group B,8.0,6.0,4.0,
+Sunnyside,2025-03-30,,,1.0,11.0,11.0
+Riverside,2025-03-30,,14.0,14.0,15.0,3.0
+Riverside,2025-03-30,Group B,15.0,4.0,1.0,
+Riverside,2025-03-30,Group C,14.0,4.0,0.0,5.0
