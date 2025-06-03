@@ -23,9 +23,9 @@ if not st.session_state["logo_file"]:
 if st.session_state["client_name"] and st.session_state["logo_file"]:
     st.image(st.session_state["logo_file"], width=150)
     
-# Detect theme mode and set appropriate text color
-theme_color = "#1F2A44" if not st.get_option("theme.base") or st.get_option("theme.base") == "light" else "#E0E0E0"
-st.markdown(f"<h2 style='text-align: center; color: {theme_color};'>{st.session_state['client_name']}</h2>", unsafe_allow_html=True)
+    # Detect theme mode and set appropriate text color
+    theme_color = "#1F2A44" if not st.get_option("theme.base") or st.get_option("theme.base") == "light" else "#E0E0E0"
+    st.markdown(f"<h2 style='text-align: center; color: {theme_color};'>{st.session_state['client_name']}</h2>", unsafe_allow_html=True)
 
     if not st.session_state["data_loaded"]:
         # uploaded_file = st.file_uploader("Upload Cleaned CSV", type="csv")
