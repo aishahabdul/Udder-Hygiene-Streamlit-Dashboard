@@ -9,7 +9,7 @@ st.set_page_config(page_title="Udder Hygiene Dashboard", layout="wide", initial_
 st.markdown("<h1 style='text-align: center; color: #1F2A44;'>Udder Hygiene Dashboard</h1>", unsafe_allow_html=True)
 
 # --- Initialize session state keys ---
-for key in ["df", "data_loaded", "client_name", "logo_file"]:
+for key in ["df","client_name", "logo_file", "data_loaded"]:
     if key not in st.session_state:
         st.session_state[key] = None
 
@@ -30,9 +30,9 @@ st.markdown(f"<h2 style='text-align: center; color: {theme_color};'>{st.session_
 
 # --- Data upload and rerun logic ---
 if not st.session_state["data_loaded"]:
-    uploaded_file = st.file_uploader("Upload Cleaned CSV", type="csv")
+    # uploaded_file = st.file_uploader("Upload Cleaned CSV", type="csv")
     if uploaded_file:
-        st.session_state["df"] = pd.read_csv(uploaded_file)
+        st.session_state["df"] = pd.read_csv("udder_hygiene_cleaned.csv")
         st.session_state["data_loaded"] = True
         st.rerun()
 else:
