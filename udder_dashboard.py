@@ -11,7 +11,7 @@ st.markdown("### 🔐 Client Login")
 client_id = st.text_input("Client ID (e.g. qmps_mock_up)").strip().lower()
 access_code = st.text_input("Access Code", type="password")
 
-
+client = st.secrets[client_id]
 # --- Validate credentials ---
 if client_id not in st.secrets or access_code != client.code:
     st.error("❌ Unknown client ID or incorrect acces code.")
