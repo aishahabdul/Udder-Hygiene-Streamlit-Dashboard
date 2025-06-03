@@ -13,18 +13,12 @@ access_code = query_params.get("code", "")
 
 # --- Define clients and access codes ---
 client_map = {
-    "sunnyside": {
-        "name": "Sunnyside Dairy",
-        "logo": "assets/sunnyside_logo.png",
-        "data": "data/sunnyside.csv",
-        "code": "milk2025"
-    },
-    "greengrass": {
-        "name": "Greengrass Farms",
-        "logo": "assets/greengrass_logo.jpg",
-        "data": "data/greengrass.csv",
-        "code": "cleanudder"
-    }
+   "qmps-mock-up": {
+    "name": "QMPS-Mock-Up",
+    "logo": "assets/Udder_hygiene_logo.png",
+    "data": "data/udder_hygiene.csv",
+    "code": "milk2025"
+}
 }
 
 # --- Access verification ---
