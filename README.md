@@ -76,7 +76,7 @@ Want to build your own version?
 ## 💡 Credits
 
 Created by Aishah Abdul-Hakeem as a workflow optimization prototype for a company.  
-For questions, contact: `aaa279@cornell.edu` 
+For questions, contact: `aishah.a1809@gmail.com` 
 
 ---
 
