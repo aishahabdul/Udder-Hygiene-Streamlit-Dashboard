@@ -1,4 +1,4 @@
-# 🐄 Udder Hygiene Dashboard (QMPS)
+# 🐄 Udder Hygiene Dashboard 
 
 This Streamlit app delivers a secure, client-specific dashboard that automates the udder hygiene reporting workflow for the Quality Milk Production Services (QMPS) team. It replaces manual Excel entry and static PDF reports with dynamic, interactive insights.
 
@@ -13,19 +13,6 @@ This Streamlit app delivers a secure, client-specific dashboard that automates t
 - 🧼 **No Manual Uploading** for clients — dashboards are preloaded
 - 🌐 **Branded Interface**: Client logos and theming
 - 📂 **Mobile-friendly UI**
-
----
-
-## 🧬 Why Udder Hygiene?
-
-Hygiene scores help farms monitor udder cleanliness, a key factor in preventing mastitis and improving milk quality:
-
-- **Score 1**: Very clean  
-- **Score 2**: Slight dirt  
-- **Score 3**: Moderate contamination  
-- **Score 4**: Heavily soiled
-
-A well-managed herd should see high percentages in **Scores 1 & 2**.
 
 ---
 
@@ -83,14 +70,6 @@ Want to build your own version?
     data = "data/your_data.csv"
     ```
 4. Deploy via [Streamlit Cloud](https://streamlit.io/cloud)
-
----
-
-## 📌 To Do
-
-- [ ] Add logout button / session switching
-- [ ] Admin dashboard for usage tracking
-- [ ] Email alerts for hygiene issues
 
 ---
 
