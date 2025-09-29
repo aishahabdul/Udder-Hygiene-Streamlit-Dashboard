@@ -1,6 +1,6 @@
 # 🐄 Udder Hygiene Dashboard 
 
-This Streamlit app delivers a secure, client-specific dashboard that automates the udder hygiene reporting workflow for the Quality Milk Production Services (QMPS) team. It replaces manual Excel entry and static PDF reports with dynamic, interactive insights.
+This Streamlit app delivers a secure, client-specific dashboard that automates the udder hygiene reporting workflow. It replaces manual Excel entry and static PDF reports with dynamic, interactive insights.
 
 ## 🚀 Features
 
